@@ -1,0 +1,5 @@
+{
+	"slack_web_hook" : "SLACK WEB HOOK GOES HERE",
+	"slack_token" : "SLACK OUTGOING TOKEN GOES HERE",
+	"wmata_api_key" : "WMATA API KEY GOES HERE"
+}
