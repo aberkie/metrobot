@@ -143,7 +143,7 @@ class Metrobot {
 	function getRailIncidents()
 	{
 		$response = $this->wmata->get('Incidents.svc/json/Incidents', [
-			'query' => ['api_key' => 'pxzh6cndhj7qb3p6jnzbvgn7']
+			'query' => ['api_key' => $this->config->wmata_api_key]
 		]);
 		$incidents = json_decode($response->getBody());
 		$this->title = "Current Metro Delays";
